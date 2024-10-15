@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Погода</string>
+    <string name="units_deg_c">℃</string>
+    <string name="tv_wind_deg">Ветер:</string>
+    <string name="units_pressure">мм рт. ст.</string>
+    <string name="units_wind_speed">м/c</string>
+    <string name="tv_city">Город</string>
+    <string name="tv_humidity">Влажность:</string>
 </resources>

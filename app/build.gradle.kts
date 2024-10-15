@@ -60,7 +60,13 @@ dependencies {
     //location
     implementation("com.google.android.gms:play-services-location:21.3.0")
 
-    implementation("com.sealwu.jsonkotlin:library:3.7.4")
+    implementation("com.sealwu.jsontokotlin:library:3.7.4")
+
+    //Компоненты жизненного цикла
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.6")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6")
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.8.6")
+    implementation("androidx.lifecycle:lifecycle-common-java8:2.8.6")
 
 
 }
