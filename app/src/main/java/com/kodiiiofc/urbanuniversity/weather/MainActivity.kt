@@ -25,7 +25,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var cityET: EditText
     private lateinit var toolbar: Toolbar
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -45,12 +44,11 @@ class MainActivity : AppCompatActivity() {
             .get(MainViewModel::class.java)
 
         observeMainViewModel()
+        mainViewModel.getCurrentWeatherByLocation()
 
         findViewById<Button>(R.id.btn_update).setOnClickListener {
-            mainViewModel.getCurrentWeather(cityET.text.toString().trim())
+            mainViewModel.getCurrentWeatherByCity(cityET.text.toString().trim())
         }
-
-
     }
 
     private fun observeMainViewModel() {

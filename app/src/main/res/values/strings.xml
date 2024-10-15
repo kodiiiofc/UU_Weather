@@ -6,4 +6,6 @@
     <string name="units_wind_speed">м/c</string>
     <string name="tv_city">Город</string>
     <string name="tv_humidity">Влажность:</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_start">Посмотреть погоду</string>
 </resources>
